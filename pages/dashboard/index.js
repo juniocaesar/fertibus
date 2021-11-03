@@ -107,6 +107,36 @@ function DashboardDrawer() {
                       Daftar User
                     </Text>
                   </Button>
+                  <Button variant="ghost" w="100%">
+                    <Text textAlign="left" w="100%" fontWeight="normal">
+                      Pemakaian Barang
+                    </Text>
+                  </Button>
+                  <Button variant="ghost" w="100%">
+                    <Text textAlign="left" w="100%" fontWeight="normal">
+                      Penyesuaian Persediaan
+                    </Text>
+                  </Button>
+                  <Button variant="ghost" w="100%">
+                    <Text textAlign="left" w="100%" fontWeight="normal">
+                      Daftar Produk
+                    </Text>
+                  </Button>
+                  <Button variant="ghost" w="100%">
+                    <Text textAlign="left" w="100%" fontWeight="normal">
+                      Daftar Satuan
+                    </Text>
+                  </Button>
+                  <Button variant="ghost" w="100%">
+                    <Text textAlign="left" w="100%" fontWeight="normal">
+                      Input Saldo Awal
+                    </Text>
+                  </Button>
+                  <Button variant="ghost" w="100%">
+                    <Text textAlign="left" w="100%" fontWeight="normal">
+                      Laporan-Laporan
+                    </Text>
+                  </Button>
                 </AccordionPanel>
               </AccordionItem>
 
@@ -120,7 +150,37 @@ function DashboardDrawer() {
                 <AccordionPanel pb={1}>
                   <Button variant="ghost" w="100%">
                     <Text textAlign="left" w="100%" fontWeight="normal">
-                      Daftar User
+                      Pembelian
+                    </Text>
+                  </Button>
+                  <Button variant="ghost" w="100%">
+                    <Text textAlign="left" w="100%" fontWeight="normal">
+                      Retur Pembelian
+                    </Text>
+                  </Button>
+                  <Button variant="ghost" w="100%">
+                    <Text textAlign="left" w="100%" fontWeight="normal">
+                      Pembayaran Hutang
+                    </Text>
+                  </Button>
+                  <Button variant="ghost" w="100%">
+                    <Text textAlign="left" w="100%" fontWeight="normal">
+                      Penyesuaian Hutang
+                    </Text>
+                  </Button>
+                  <Button variant="ghost" w="100%">
+                    <Text textAlign="left" w="100%" fontWeight="normal">
+                      Daftar Pemasok
+                    </Text>
+                  </Button>
+                  <Button variant="ghost" w="100%">
+                    <Text textAlign="left" w="100%" fontWeight="normal">
+                      Input Saldo Hutang
+                    </Text>
+                  </Button>
+                  <Button variant="ghost" w="100%">
+                    <Text textAlign="left" w="100%" fontWeight="normal">
+                      Laporan-Laporan
                     </Text>
                   </Button>
                 </AccordionPanel>
@@ -134,11 +194,15 @@ function DashboardDrawer() {
                   <AccordionIcon />
                 </AccordionButton>
                 <AccordionPanel pb={1}>
-                  <Button variant="ghost" w="100%">
-                    <Text textAlign="left" w="100%" fontWeight="normal">
-                      Daftar User
-                    </Text>
-                  </Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Penjualan</Text></Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Point of Sales (POS)</Text></Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Retur Penjualan</Text></Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Penerimaan Piutang</Text></Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Penyesuaian Piutang</Text></Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Penyesuaian Piutang</Text></Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Daftar Pelanggan</Text></Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Input Saldo Piutang</Text></Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Laporan-Laporan</Text></Button>
                 </AccordionPanel>
               </AccordionItem>
 
@@ -150,11 +214,17 @@ function DashboardDrawer() {
                   <AccordionIcon />
                 </AccordionButton>
                 <AccordionPanel pb={1}>
-                  <Button variant="ghost" w="100%">
-                    <Text textAlign="left" w="100%" fontWeight="normal">
-                      Daftar User
-                    </Text>
-                  </Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Input Jurnal</Text></Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Persetujuan Input Jurnal</Text></Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Laporan Jurnal Umum</Text></Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Buku Besar</Text></Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Neraca</Text></Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Laporan Laba/Rugi</Text></Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Arus Kas</Text></Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Laporan Perubahan Ekuitas</Text></Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Aset Tetap</Text></Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Daftar Akun</Text></Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Tutup Buku Akhir Tahun</Text></Button>
                 </AccordionPanel>
               </AccordionItem>
 
@@ -166,11 +236,8 @@ function DashboardDrawer() {
                   <AccordionIcon />
                 </AccordionButton>
                 <AccordionPanel pb={1}>
-                  <Button variant="ghost" w="100%">
-                    <Text textAlign="left" w="100%" fontWeight="normal">
-                      Daftar User
-                    </Text>
-                  </Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Tutup</Text></Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Tutup Semua</Text></Button>
                 </AccordionPanel>
               </AccordionItem>
 
@@ -182,11 +249,8 @@ function DashboardDrawer() {
                   <AccordionIcon />
                 </AccordionButton>
                 <AccordionPanel pb={1}>
-                  <Button variant="ghost" w="100%">
-                    <Text textAlign="left" w="100%" fontWeight="normal">
-                      Daftar User
-                    </Text>
-                  </Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Tutorial</Text></Button>
+                  <Button variant="ghost" w="100%"><Text textAlign="left" w="100%" fontWeight="normal">Tentang</Text></Button>
                 </AccordionPanel>
               </AccordionItem>
             </Accordion>
@@ -209,8 +273,8 @@ export default function index() {
             <DashboardDrawer />
             <Spacer />
             <Square mt={3}>
-              <Text fontSize="2xl" p={0} textColor="white">
-                Maju<b>Jaya</b>
+              <Text fontSize="3xl" p={0} textColor="white">
+                <b>MJ</b>Accounting
               </Text>
             </Square>
             <Spacer />
