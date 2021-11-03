@@ -2,7 +2,7 @@
 export default function index() {
     return (
         <div>
-            JOMAMASSSSssssss
+            <h1>Selamat Datang di Toko Maju Jaya</h1>
         </div>
     )
 }
