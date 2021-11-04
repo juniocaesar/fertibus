@@ -21,6 +21,7 @@ import {
   AccordionIcon,
   AccordionPanel,
 } from "@chakra-ui/react";
+import Link from 'next/link';
 
 function DashboardDrawer() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -422,8 +423,8 @@ export default function index() {
             <DashboardDrawer />
             <Spacer />
             <Square mt={3}>
-              <Text fontSize="3xl" p={0} textColor="white">
-                <b>MJ</b><small>Accounting</small>
+              <Text fontSize="2xl" p={0} textColor="white">
+                <Link href="" passHref><a><b>MJ</b><small>Accounting</small></a></Link>
               </Text>
             </Square>
             <Spacer />
